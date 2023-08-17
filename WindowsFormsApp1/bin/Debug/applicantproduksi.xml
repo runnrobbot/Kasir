@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_x0020_SUPPLIER" type="xs:string" minOccurs="0" />
+              <xs:element name="NAMA_x0020_SUPPLIER" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_x0020_OBAT" type="xs:string" minOccurs="0" />
+              <xs:element name="JUMLAH" type="xs:string" minOccurs="0" />
+              <xs:element name="HARGA_x0020_BELI" type="xs:string" minOccurs="0" />
+              <xs:element name="TANGGAL_x0020_BELI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
